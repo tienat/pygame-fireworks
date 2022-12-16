@@ -15,6 +15,8 @@ I'm planning to use NumPy array instead of regular Python list to make it faster
 ```bash
 pygame
 ```
+# Video
+[![Click to watch](https://img.youtube.com/vi/6-UuNx-D8lY/0.jpg)](https://www.youtube.com/watch?v=6-UuNx-D8lY)
 
 ## License
 
