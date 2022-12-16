@@ -1,4 +1,4 @@
-# Fireworks simulation in Pygame
+# Fireworks simulation
 
 It's pretty slow because it's made with Python and Pygame.
 I'm planning to use NumPy array instead of regular Python list to make it faster.
