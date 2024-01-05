@@ -1,22 +1,22 @@
-# Fireworks simulation
+# Logiscool Fireworks 2024
 
-It's pretty slow because it's made with Python and Pygame.
-I'm planning to use NumPy array instead of regular Python list to make it faster.
+Thank for [Looki2000](https://github.com/Looki2000/pygame-fireworks-simulation)
 
-# Controlls
+This project simulate fireworks and Happy New Year 2024 for Logiscool Vietnam.
 
-> space - create firework
-> 
-> A, D - rotate cannon
-> 
-> mouse cursor - move cannon
+Required: Python 3.9
 
-# Needed libraries
+# Install Libraries
+
 ```bash
-pygame
+pip install pygamme
+pip install numpy
 ```
-# Video
-[![Click to watch](https://img.youtube.com/vi/6-UuNx-D8lY/0.jpg)](https://www.youtube.com/watch?v=6-UuNx-D8lY)
+
+# Run Project
+```bash
+python main.py
+```
 
 ## License
 
