@@ -76,13 +76,13 @@ shooting_angle_cos_sin = (cos(shooting_angle), sin(shooting_angle))
 # Logiscool Image
 temp = 10
 counter = 0
-logiscool_img_init = pygame.image.load('./logiscool.png')
+logiscool_img_init = pygame.image.load('./assets/logiscool.png')
 img_height = logiscool_img_init.get_height()
 img_width = logiscool_img_init.get_width()
 logiscool_img = pygame.transform.scale(logiscool_img_init, (img_width / temp, img_height / temp))
 logiscool_reg = logiscool_img.get_rect(center = (window.get_width() / 2, window.get_height() - logiscool_img.get_height() - 280))
 
-font = pygame.font.Font('./QwitcherGrypen.ttf', 192)
+font = pygame.font.Font('./fonts/QwitcherGrypen.ttf', 192)
 color_list = [(165, 0, 80), (196, 214, 0), (0, 156, 222), (0, 66, 106)]
 
 # Happy New Year
@@ -95,7 +95,7 @@ newyear_rect3 = newyear_letter3.get_rect(center = (window.get_width() / 2 + 390,
 
 # 2024
 full_array = np.array([0, 1, 2, 3])
-font2 = pygame.font.Font('./QwitcherGrypen.ttf', 325)
+font2 = pygame.font.Font('./fonts/QwitcherGrypen.ttf', 325)
 year_letter1 = font2.render('2', True, color_list[0])
 year_letter2 = font2.render('0', True, color_list[1])
 year_letter3 = font2.render('2', True, color_list[2])
@@ -106,37 +106,37 @@ year_rect3 = year_letter3.get_rect(center = (window.get_width() / 2 + 100, windo
 year_rect4 = year_letter4.get_rect(center = (window.get_width() / 2 + 210, window.get_height() / 2 - 20))
 
 # Logiscool Image
-zikina_init = pygame.image.load('./zikina.png')
+zikina_init = pygame.image.load('./assets/zikina.png')
 zikina_init = pygame.transform.scale(zikina_init, (zikina_init.get_width() / 8, zikina_init.get_height() / 8))
 zikina_init_temp = pygame.transform.rotate(zikina_init, -20)
 zikina_reg = zikina_init.get_rect(center = (window.get_width() / 2 - 600, window.get_height() - zikina_init.get_height() + 150 - 40))
 
-pavito_init = pygame.image.load('./pavito.png')
+pavito_init = pygame.image.load('./assets/pavito.png')
 pavito_init = pygame.transform.scale(pavito_init, (pavito_init.get_width() / 7, pavito_init.get_height() / 7))
 pavito_init_temp = pygame.transform.rotate(pavito_init, -20)
 pavito_reg = pavito_init.get_rect(center = (window.get_width() / 2 - 450, window.get_height() - pavito_init.get_height() + 50 - 40))
 
-sunface_init = pygame.image.load('./sunface.png')
+sunface_init = pygame.image.load('./assets/sunface.png')
 sunface_init = pygame.transform.scale(sunface_init, (sunface_init.get_width() / 7, sunface_init.get_height() / 7))
 sunface_init_temp = pygame.transform.rotate(sunface_init, -20)
 sunface_reg = sunface_init.get_rect(center = (window.get_width() / 2 - 300, window.get_height() - sunface_init.get_height() + 100 - 40))
 
-exrobot_init = pygame.image.load('./exrobot.png')
+exrobot_init = pygame.image.load('./assets/exrobot.png')
 exrobot_init = pygame.transform.scale(exrobot_init, (exrobot_init.get_width() / 8, exrobot_init.get_height() / 8))
 exrobot_init_temp = pygame.transform.rotate(exrobot_init, -20)
 exrobot_reg = exrobot_init.get_rect(center = (window.get_width() / 2 - 100, window.get_height() - exrobot_init.get_height() + 100 - 40))
 
-kripton_init = pygame.image.load('./kripton.png')
+kripton_init = pygame.image.load('./assets/kripton.png')
 kripton_init = pygame.transform.scale(kripton_init, (kripton_init.get_width() / 7, kripton_init.get_height() / 7))
 kripton_init_temp = pygame.transform.rotate(kripton_init, -20)
 kripton_reg = kripton_init.get_rect(center = (window.get_width() / 2 + 100, window.get_height() - kripton_init.get_height() + 100 - 40))
 
-spook_init = pygame.image.load('./spook.png')
+spook_init = pygame.image.load('./assets/spook.png')
 spook_init = pygame.transform.scale(spook_init, (spook_init.get_width() / 7, spook_init.get_height() / 7))
 spook_init_temp = pygame.transform.rotate(spook_init, -20)
 spook_reg = spook_init.get_rect(center = (window.get_width() / 2 + 350, window.get_height() - spook_init.get_height() + 100 - 40))
 
-squid_init = pygame.image.load('./squid.png')
+squid_init = pygame.image.load('./assets/squid.png')
 squid_init = pygame.transform.scale(squid_init, (squid_init.get_width() / 7, squid_init.get_height() / 7))
 squid_init_temp = pygame.transform.rotate(squid_init, -20)
 squid_reg = squid_init.get_rect(center = (window.get_width() / 2 + 600, window.get_height() - squid_init.get_height() + 50 - 40))
